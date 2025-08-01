@@ -196,5 +196,4 @@ Algorithm:
 
 # Conclusion:
 
-In this experiment, we explored the concepts of arrays and strings in C++ through various hands-on programs. Arrays help in managing fixed-size data collections, and we implemented functionalities like input/output, reversal, summation, and searching. Strings provide a flexible way to handle character data, where we applied operations such as input/output, concatenation, reversal, and palindrome checking. Understanding and implementing these basic operations build a strong foundation for handling more complex data structures and algorithms in future programming challenges.
-
+In this experiment, We learned how to use arrays and strings in C++ for storing and manipulating data. Arrays allow handling fixed-size collections with operations like input/output, searching, reversing, and calculating sum, average, min, and max. Using both strings and arrays support the tasks like input, concatenation, reversing, and palindrome checks.
