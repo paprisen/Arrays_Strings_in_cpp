@@ -1,28 +1,35 @@
 // Papri Sen
 // 24070123070
 // A3
-#include <iostream>
+#include<iostream>
 using namespace std;
-int main() {
+int main(){
+    cout<<"enter the size of array : ";
     int n;
-    cout << "Enter Number of elements:";
-    cin >> n;
-    int marks[n];
-    for(int i = 0;i<n;i++){
-        cout << "Enter marks "<<i+1 <<": ";
-        cin >> marks[i];
+    cin>>n;
+    int numbers[n];
+    for(int i=0;i<n;i++){
+        cout<<"enter the values "<<endl;
+        cin>>numbers[i];
+        
     }
-    cout << "marks: ";
-    for(int i = 0;i<n;i++){
-        cout << marks[i] <<" ";
+    cout<<"the values are ";
+    for(int i=0;i<n;i++){
+        cout<<numbers[i]<<endl;
     }
     return 0;
 }
 /*
 output:
-Enter Number of elements:3
-Enter marks 1: 70
-Enter marks 2: 80
-Enter marks 3: 90
-marks: 70 80 90 
+enter the size of array : 3
+enter the values 
+10
+enter the values 
+20
+enter the values 
+30
+the values are 10
+20
+30
+
 */
